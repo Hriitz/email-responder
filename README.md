@@ -36,6 +36,7 @@ You have to write a Node.js based app that is able to respond to emails sent to 
 2. Clone this reposiory using 
 ```git clone https://github.com/Hriitz/email-responder```
 3. Use command ``` npm i ``` to install neccessary dependencies
-4. Create your own gmail API credentials and define port in .env file
-5. Run 
+4. Create your own gmail API credentials using Google Cloud Platform(GCP)
+5. Use the credentials in the code or create a .env file and define the those credentials accordingly 
+6. Run 
 ``` npm start ``` 
