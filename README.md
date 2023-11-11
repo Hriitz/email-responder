@@ -29,4 +29,13 @@ You have to write a Node.js based app that is able to respond to emails sent to 
     
     </aside>
     
-4. The app should repeat this sequence of steps 1-3 in random intervals of 45 to 120 seconds
+4. The app should repeat this sequence of steps 1-3 in random intervals of 45 to 120 
+
+## Using this app
+1. Fork this repository
+2. Clone this reposiory using git clone 
+```git clone https://github.com/Hriitz/email-responder```
+3. Use command ``` npm i ``` to install neccessary dependencies
+4. Create your own gmail API credentials and define port in .env file
+5. Run 
+``` npm start ``` 
